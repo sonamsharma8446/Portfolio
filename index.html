@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonam Sharma | Portfolio</title>
+    <meta name="description" content="Portfolio of Sonam Sharma - Aspiring Full Stack Developer, Backend Developer & AI Enthusiast.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">&lt;Sonam.S /&gt;</a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-right">
+                <span class="greeting">Hi, my name is</span>
+                <h1 class="hero-name">Sonam Sharma</h1>
+                <h2 class="hero-title"><span id="typed-text"></span></h2>
+                <p class="hero-desc">I am a Computer Science Engineering student passionate about Full Stack Web Development, Backend Development, Artificial Intelligence, and Problem Solving.</p>
+                <div class="hero-ctas">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="assets/resume.pdf" class="btn btn-secondary" download><i class="fas fa-download"></i> Resume</a>
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left">
+                <div class="avatar-wrapper">
+                    <svg class="abstract-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <path fill="url(#grad1)" d="M44.7,-76.3C57.3,-69.2,66.6,-55.8,73.4,-41.4C80.2,-27,84.6,-11.5,82.4,3.4C80.2,18.3,71.4,32.7,61.4,45C51.4,57.3,40.3,67.6,26.9,73C13.5,78.5,-2.1,79.2,-17.7,76C-33.3,72.7,-48.9,65.6,-60.7,53.9C-72.5,42.2,-80.6,25.9,-83.4,8.5C-86.2,-8.9,-83.8,-27.4,-75.1,-42.6C-66.5,-57.8,-51.7,-69.8,-36.5,-75.6C-21.3,-81.4,-5.7,-81.1,10.1,-79.8C25.9,-78.5,44.7,-76.3,23.4,-70Z" transform="translate(100 100)" />
+                        <text x="50%" y="53%" dominant-baseline="middle" text-anchor="middle" font-family="Fira Code" font-size="28" fill="#ffffff">&lt;/&gt;</text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+        <div class="container" data-aos="fade-up">
+            <h2 class="section-title">About Me</h2>
+            <div class="glass-card about-card">
+                <p>I am a Computer Science Engineering student passionate about Full Stack Web Development, Backend Development, Artificial Intelligence, and Problem Solving. I enjoy building real-world web applications, learning modern technologies, and continuously improving my programming skills.</p>
+                <p style="margin-top: 1.5rem;">With a strong foundation in modern frontend architectures and scalable backend services, I constantly explore methods to bridge functional engineering with smart automated experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <div class="skills-grid">
+                
+                <div class="glass-card skill-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-header">
+                        <i class="fas fa-laptop-code skill-icon"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-html5 text-orange"></i> HTML5</li>
+                        <li><i class="fab fa-css3-alt text-blue"></i> CSS3</li>
+                        <li><i class="fab fa-js text-yellow"></i> JavaScript</li>
+                        <li><i class="fab fa-angular text-red"></i> Angular</li>
+                        <li><i class="fab fa-react text-cyan"></i> React <span class="badge">Learning</span></li>
+                    </ul>
+                </div>
+
+                <div class="glass-card skill-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="skill-header">
+                        <i class="fas fa-server skill-icon"></i>
+                        <h3>Backend & DB</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-node-js text-green"></i> Node.js</li>
+                        <li><i class="fas fa-feather-alt text-gray"></i> Express.js</li>
+                        <li><i class="fas fa-database text-green"></i> MongoDB</li>
+                        <li><i class="fas fa-table text-blue"></i> SQL</li>
+                    </ul>
+                </div>
+
+                <div class="glass-card skill-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="skill-header">
+                        <i class="fas fa-tools skill-icon"></i>
+                        <h3>Languages & Tools</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li><i class="font-code text-cyan">C++</i> C++</li>
+                        <li><i class="fab fa-python text-yellow"></i> Python</li>
+                        <li><i class="fab fa-git-alt text-orange"></i> Git & GitHub</li>
+                        <li><i class="fas fa-network-wired text-purple"></i> REST APIs</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>PDFPilot</h3>
+                        <p>Image-to-PDF converter engine engineered with elegant drag-and-drop mechanics.</p>
+                        <div class="tech-stack">
+                            <span>React</span><span>Node.js</span><span>Rest API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sonamsharma8446/Pdf-Pilot" target="_blank" class="btn btn-sm"><i class="fab fa-github"></i> Source</a>
+                            <a href="#" target="_blank" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Resume Builder</h3>
+                        <p>AI-powered platform designed to build resumes and accurately parse matching target roles.</p>
+                        <div class="tech-stack">
+                            <span>Angular</span><span>Node.js</span><span>LLM API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sonamsharma8446/GEN-AI-interview-preparation-project" target="_blank" class="btn btn-sm"><i class="fab fa-github"></i> Source</a>
+                            <a href="#" target="_blank" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-img-placeholder">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Deep Packet Inspection</h3>
+                        <p>High-performance C++ networking pipeline built for real-time packet protocol analysis.</p>
+                        <div class="tech-stack">
+                            <span>C++</span><span>Networking</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sonamsharma8446/Deep-Package-Inspection" target="_blank" class="btn btn-sm"><i class="fab fa-github"></i> Source</a>
+                            <a href="#" target="_blank" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education & Certifications</h2>
+            <div class="edu-cert-grid">
+                
+                <div class="glass-card edu-card" data-aos="fade-right">
+                    <h3>Education</h3>
+                    <div class="timeline-item">
+                        <h4>Bachelor of Technology in Computer Science Engineering</h4>
+                        <p class="timeline-meta">Expected Graduation: 2027</p>
+                        <p>DAV Institute of Engineering and Technology, Jalandhar</p>
+                    </div>
+                </div>
+
+                <div class="glass-card cert-card" data-aos="fade-left">
+                    <h3>Certifications</h3>
+                    <ul class="cert-list">
+                        <li>
+                            <i class="fas fa-certificate cert-icon"></i>
+                            <div>
+                                <h4>Angular Development Certificate</h4>
+                                <a href="./assets/angular certificate.pdf" target="_blank" class="timeline-meta">View Credential</a>
+                            </div>
+                        </li>
+                        <li >
+                            <i class="fas fa-certificate cert-icon "></i>
+                            <div>
+                                <h4>JavaScript Certificate</h4>
+                                <a href="./assets/javascript certificate.pdf" target="_blank" class="timeline-meta">View Credential</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-grid">
+                
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Connect</h3>
+                    <p>I am looking for internship and deployment placement tracks. Feel free to contact me directly using the communication links or via the portal form!</p>
+                    <div class="info-links">
+                        <a href="mailto:sonamsharma0306@gmail.com"><i class="fas fa-envelope"></i> sonamsharma0306@gmail.com</a>
+                        <a href="https://www.linkedin.com/in/sonam-sharma-4675832b2/" target="_blank"><i class="fab fa-linkedin"></i> https://www.linkedin.com/in/sonam-sharma-4675832b2/</a>
+                        <a href="https://github.com/sonamsharma8446" target="_blank"><i class="fab fa-github"></i> https://github.com/sonamsharma8446</a>
+                    </div>
+                </div>
+
+                <div class="glass-card contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required placeholder="john@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="4" required placeholder="Your Message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2026 Sonam Sharma. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/sonamsharma8446" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sonam-sharma-4675832b2/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:sonamsharma0306@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
